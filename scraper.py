@@ -4,20 +4,63 @@
 from bs4 import BeautifulSoup
 from linkedin import linkedin
 from oauthlib import *
-import mechanize, time, re, json
+import mechanize, couchdb
+import time, re, json
+
+
+class Server(couchdb.Server):
+    def __init__(self):
+        couchdb.Server.__init__(self)
+        self.selectdb = None
+
+    def hasdb(self, dbname):
+        for db in self: 
+            if db == dbname: return True
+        return False
+
+    def connectdb(self, dbname):
+        # connect to the db if existed or create it 
+        if self.hasdb(dbname):
+            self.selectdb = self[dbname]
+        else:
+            self.create(dbname)
+            self.selectdb = self[dbname]
+        return self.selectdb
+
+    def save2db(self, data, key):
+        # keys is dict. eg. keys = {"name":"Jason", "gender": "male"}
+        if self.selectdb == None:
+            raise Exception("No database selected.")
+        if key not in data:
+            raise Exception("Data does not contains the provided key.")
+
+        docid = str(hash(data[key]))
+        if docid not in self.selectdb:
+            self.selectdb[docid] = data
+        else:
+            doc = self.selectdb[docid]
+            for attr in data: doc[attr] = data[attr]   
+            self.selectdb[docid] = doc
+        return self.selectdb[docid]
+        
+    def findRecord(self, keys):
+        # if record is found return key; if not, return None.
+        if self.selectdb == None: raise Exception("No database selected.")
+        if keys == None: return None
+        return 42
 
 class ExtendedBrowser(mechanize.Browser):
     def __init__(self):
         mechanize.Browser.__init__(self)
         
-        # init browser setting
         self.set_handle_robots(False)
         self.addheaders = [('User-agent', 'Firefox')]
 
-        # init data
         self.soup = None
         self.soupURL = None
-    
+
+        self.server = Server()
+
     def openSoup(self, url):
         # return soup as None if HTTP 500 error
         if self.soupURL == url: 
@@ -83,35 +126,51 @@ class GlassdoorScraper(ExtendedBrowser):
 
         # init instance variable
         self.start = self.end = 1
+        self.server.connectdb("glassdoor")
 
     def siteWalker(self, timeInterval):
         for (pageNum, pageURL) in self.pageGenerator():
-            result = self.pageWalker(pageURL) 
+            result = self.pageWalker(pageNum, pageURL) 
             if result != None: 
-                self.writeCSV(result, "name/name%05d" % pageNum)
+                # self.writeCSV(result, "name/name%05d" % pageNum)
                 print pageNum
                 time.sleep(timeInterval)   
 
-    def pageWalker(self, url):
+    def pageWalker(self, num, url):
         soup = self.openSoup(url)
-        if soup != None:
-            result = []
-            result.append(self._getName(soup))
-            result.append(self._getReviewCount(soup))
-            return zip(*result)
-        else:
+        if soup == None:
             return None
+        else:
+            name = self._getName(soup)
+            review = self._getReviewCount(soup)
+            webs = self._getWebsite(soup)
+
+            results = map(lambda _input: {
+                                    "page": num,
+                                    "name": _input[0], 
+                                    "review": _input[1],
+                                    "website": _input[2]
+                                    }, 
+                          zip(*[name, review, webs]))
+
+            for result in results:
+                print result
+                self.server.save2db(result,"name")
+
+    def _companyIterator(self, soup):
+        for company in soup.find_all("div", class_="companyData"):
+            yield company
 
     def _getName(self, soup):
         names = []
-        for company in soup.find_all("div", class_="companyData"):
+        for company in self._companyIterator(soup):
             name = company.find("tt").string
             names.append(name)
         return names
 
     def _getReviewCount(self, soup):
         counts = []
-        for company in soup.find_all("div", class_="companyData"):
+        for company in self._companyIterator(soup):
             match = company.find("a", class_="noWrap").strong
             if match != None:
                 # only 1 review: contain Full Reivew
@@ -126,6 +185,13 @@ class GlassdoorScraper(ExtendedBrowser):
                 # failed to obtain the count
                 counts.append(-1)
         return counts
+
+    def _getWebsite(self, soup):
+        webs = []
+        for company in self._companyIterator(soup):
+            web = company.find("span", class_="webInfo notranslate").text
+            webs.append(web)
+        return webs
 
     def pageGenerator(self):
         template = "http://www.glassdoor.com/Reviews/company-reviews-SRCH_IP%d.htm"
@@ -165,11 +231,11 @@ class LinkedinScraper(ExtendedBrowser):
         self.api = None
 
     def connectAPI(self):
-        self.api_key = '75v8fr40jdwaqe'     
-        self.api_secret = 'VwPaJfq3boxUjlKf' 
+        self.api_key = '754kmvgnrn1fd2'     
+        self.api_secret = 'brayBdMc37jxOAsJ' 
 
-        self.user_token = 'ac7ee0c8-5b1e-44b7-9270-b574cec55701'  
-        self.user_secret = 'fb8d1e01-052b-438d-a07c-ccb50cbcfdb8' 
+        self.user_token = '4a1acfd5-d348-4907-8d1d-d9b40166a263'  
+        self.user_secret = '9792663a-9ca7-427d-9402-f96b965e5734' 
         self.return_url = 'http://localhost:8000'
 
         config = [self.api_key, self.api_secret, 
@@ -181,12 +247,14 @@ class LinkedinScraper(ExtendedBrowser):
         self.api = linkedin.LinkedInApplication(authentication)
 
     def getCompanyInfo(self, company):
+	    # return a list of companies based on the company keyword
         if self.api == None: self.connectAPI()
-        attr = ['id','name','industry']
+        attr = ['id','name','industry','locations']
+        params = {'keywords': company, 'facet': 'location,us'}
         result = self.api.search_company(selectors=[{'companies': attr}], 
-                                         params={'keywords': company})
-        return result['companies']['values']
-
+                                         params=params)
+        company = result['companies']
+        return company.get('values')
 
     def login(self, user, password):
         url = "http://www.linkedin.com/"
@@ -198,7 +266,7 @@ class LinkedinScraper(ExtendedBrowser):
         self.submit()
 
         if "Welcome!" in self.title():
-            self.login = True
+            self.hasLogin = True
             if self.detail: 
                 print "Login As %s (Title: %s)" % (user, self.title())
         else:
@@ -218,18 +286,22 @@ class LinkedinScraper(ExtendedBrowser):
 
     def activeJobs(self, company):
         # check if log in
-        companyid = self._companyid(company)
-        
-        template = "https://www.linkedin.com/vsearch/j?f_C=%s"
-        url = template % companyid
-        self.openSoup(url)
+        if self.hasLogin:
+            matches = self.getCompanyInfo(company)
+            guess = matches[0]
+            guess_id, guess_name = guess["id"], guess["name"]
 
-        return self._getResultCount()
+            template = "https://www.linkedin.com/vsearch/j?f_C=%s"
+            url = template % guess_id
+            self.openSoup(url)
 
+            return guess_id, guess_name, self._getResultCount()
+        else:
+            return None
 
-    def _companyid(self, company):
-        # string
-        return 1512 # Apple's ID
+    def _companyid(self, company,feelingLucky=True):
+        info = self.getCompanyInfo(company)
+        return info[0]["id"]
 
     def _getResultCount(self):
         codeBlock = self.soup.code.string
@@ -243,6 +315,10 @@ class LinkedinScraper(ExtendedBrowser):
         resultCount = self._getDictValue(code, keychain)
         return resultCount
 
+
+
+# <span class="">
+#    <span class="url">
     
 
 
