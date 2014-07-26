@@ -1,0 +1,662 @@
+"Target",1512,Target,6
+"Walmart",4192,Walmart eCommerce,101
+"Microsoft",1035,Microsoft,2242
+"IBM",1009,IBM,2163
+"Bank of America",1123,Bank of America,28
+"Wells Fargo",1235,Wells Fargo,94
+"Best Buy",2127,Best Buy,3869
+"AT&T",1052,AT&T,106
+"US Army",1223,US Army,1
+"Hewlett-Packard",1025,Hewlett-Packard,236
+"The Home Depot",1534,The Home Depot,20
+"Macy's",2300,Macy's,463
+"Starbucks",2271,Starbucks,135
+"Lowe's",2227832,Bernie Lowe & Associates, Inc.,0
+"Cisco Systems",1063,Cisco,258
+"Deloitte",1038,Deloitte,2452
+"US Air Force",157235,United States Air Force,20
+"Sears",1944,Sears Holdings Corporation,9534
+"Apple",162479,Apple,1602
+"US Navy",1335,US Navy,7
+"Walgreens",3589,Walgreens,76
+"Accenture",21314,Accenture Software for P&C Insurance,0
+"J.P. Morgan",1067,J.P. Morgan,303
+"Intel Corporation",1053,Intel Corporation,368
+"PwC",1044,PwC,7253
+"Amazon.com",1586,Amazon,1212
+"CVS Caremark",4680,CVS Caremark Corporation,237
+"McDonald's",2677,McDonald's Corporation,44
+"Verizon Wireless",2696,Verizon Wireless,97
+"Oracle",1028,Oracle,168
+"Enterprise Rent-A-Car",462318,Enterprise Holdings,20
+"Nordstrom",538297,Nordstromrack.com | HauteLook, a Nordstrom Company,0
+"UPS",1524,UPS Supply Chain Solutions,0
+"Dell",1093,Dell,1255
+"Chase",1068,JPMorgan Chase,902
+"Lockheed Martin",1319,Lockheed Martin,58
+"EY",1073,EY,1375
+"Sprint",1106,Sprint,47
+"T-Mobile",1392,T-Mobile,1081
+"Comcast",1703,Comcast,300
+"Verizon",1103,Verizon,366
+"Citi",11448,Citi,79
+"US Marine Corps",2039,United States Marine Corps,0
+"Booz Allen Hamilton",1403,Booz Allen Hamilton,42
+"Boeing",1384,Boeing,173
+"Kohl's",3742136,Kohl Wholesale,0
+"Abercrombie & Fitch",5410,Abercrombie & Fitch,43
+"J. C. Penney",20879,City of Plano,0
+"DISH",4296,Dish Network,65
+"Google",1441,Google,923
+"Staples",3019,Staples,39
+"Infosys",25142,Infosys McCamish Systems,0
+"Cognizant Technology Solutions",1680,Cognizant Technology Solutions,109
+"KPMG US",1079,KPMG US,1212
+"UnitedHealth Group",1720,UnitedHealth Group,0
+"Northrop Grumman",1412,Northrop Grumman Corporation,22
+"Insight Global",1262,Deutsche Bank,23
+"GE",1023,GE Capital,774
+"Kaiser Permanente",1550,Kaiser Permanente,44
+"Fidelity Investments",1307,Fidelity Investments,163
+"Hertz",4326,Hertz,93
+"Xerox",1373,Xerox,30
+"State Farm",2381,State Farm,5233
+"Kroger",4914,Kroger,3
+"PepsiCo",1431,PepsiCo,692
+"Thomson Reuters",1400,Thomson Reuters,41
+"Computer Sciences Corp",1120,CSC,123
+"The Gap",1677,Gap Inc.,4
+"Capital One",1123,Bank of America,28
+"Intuit",1666,Intuit,405
+"U.S. Bank",2532,U.S. Bank,41
+"Yahoo",1288,Yahoo,153
+"American Express",1277,American Express,18
+"Raytheon",1505,Raytheon,40
+"ADP",1463,ADP,574
+"Qualcomm",595224,Qualcomm Innovation Center Inc,0
+"Victoria's Secret Stores",2251,Victoria's Secret,86
+"Whole Foods Market",157353,Whole Foods Market,2066
+"Office Depot",3114,Office Depot,42
+"Time Warner Cable",2031,Time Warner Cable,9
+"Northwestern Mutual",2445,Northwestern Mutual,36
+"EMC",1128,EMC,186
+"RadioShack",3428,RadioShack,92
+"YMCA",5291,YMCA,117
+"Forever 21",163828,First Citizens Bank,51
+"Motorola Mobility",1066,Motorola,66
+"US Postal Service",3694,United States Postal Service,2
+"Old Navy",165295,Gap Inc./Old Navy,1
+"GameStop",3342281,The Old School Game Vault,0
+"Publix",7242,Publix Super Markets,6
+"Kmart",1943,Kmart Corporation,7
+"Allstate",1835,Allstate,287
+"Panera Bread",5070382,Howley Bread Group, Ltd., a franchise of Panera, LLC,1
+"Morgan Stanley",1351,Morgan Stanley Wealth Management,98
+"Goldman Sachs",1382,Goldman Sachs,69
+"Marriott",2311,Marriott International,2125
+"Disney Parks & Resorts",1292,The Walt Disney Company,1145
+"State Street",1767,State Street,481
+"Safeway",3498,Safeway,28
+"PNC Financial Services Group",6037,National City,0
+"BNY Mellon",162750,BNY Mellon,931
+"Coca-Cola Company",1694,The Coca-Cola Company,266
+"Costco Wholesale",43902,ADW Acosta,0
+"SAIC",1614,SAIC,200
+"FedEx",1670,FedEx Services,5
+"Procter & Gamble",1116,Procter & Gamble,108
+"Merrill Lynch",1178,Merrill Lynch,13
+"Liberty Mutual Insurance",2701,Liberty Mutual Insurance,752
+"Symantec",1231,Symantec,43
+"Toys ''R'' Us",4990,Toys R Us,21
+"Merck",1486,Merck,26
+"Honeywell",1344,Honeywell,24
+"Barnes & Noble",4417,Barnes & Noble,28
+"Sam's Club",22070,Triad Retail Media,8
+"VMware",2988,VMware,443
+"eBay Inc.",1481,eBay Inc,100
+"OfficeMax",3675,OfficeMax,5
+"Dollar General",4326,Hertz,93
+"Dillard's",7455,Dillards,1
+"Convergys",2159,Convergys,163
+"Sun Microsystems",1062,Sun Microsystems,0
+"Subway",8093,Subway,35
+"UBS",5071719,UBS Center,0
+"Texas Instruments",1397,Texas Instruments,249
+"Pfizer",1185,Pfizer,60
+"Johnson & Johnson",1207,Johnson & Johnson,610
+"Tata Consultancy Services",1353,Tata Consultancy Services,98
+"PetSmart",165454,PetSmart,9
+"Bath & Body Works",2250,L Brands,57
+"Pizza Hut",3408,Yum! Restaurants International,0
+"Ross Stores",7032,Ross Stores, Inc.,19
+"American Eagle Outfitters",2411634,NEXT/NOW,0
+"Charles Schwab",1855,Charles Schwab,34
+"Rite Aid",6913,Rite Aid,22
+"GEICO",157327,GEICO,32
+"MetLife",2213,MetLife,380
+"Michaels Stores",6034,Michaels Stores, Inc.,10
+"Bloomberg L.P.",2494,Bloomberg LP,344
+"TEKsystems",2152,TEKsystems,8
+"Edelman",58931,Edelman Financial Services,6
+"Salesforce.com",3185,salesforce.com,538
+"USAA",4501,USAA,12
+"Citibank",11448,Citi,79
+"Affiliated Computer Services",7992,Buck Consultants,5
+"Robert Half",1685,Robert Half Technology,3
+"Express Scripts",4969,Express Scripts,209
+"SAP",1115,SAP,45
+"General Motors",1472,General Motors,1298
+"Farmers Insurance Group",3240,Farmers Insurance,82
+"SunTrust",2692,SunTrust Bank,21
+"H&R Block",3671,H&R Block,4
+"NetApp",2105,NetApp,142
+"Adobe",1480,Adobe,52
+"Edward Jones",3677,Edward Jones,91
+"Aerotek",2889,Aerotek,73
+"Banana Republic",1678,Banana Republic / Gap Inc.,5
+"Bed Bath & Beyond",7174,Bed Bath & Beyond,502
+"Dick's Sporting Goods",7789,DICK'S Sporting Goods,48
+"AMD",1497,AMD,35
+"Expedia",2751,Expedia, Inc.,245
+"Genentech",8013,Exelixis,0
+"The Nielsen Company",1713,Nielsen Company,0
+"Schlumberger",2210607,GeothermEx Inc., a Schlumberger Company,0
+"Ford Motor",166276,Team Detroit,65
+"Darden",163347,Darden,9460
+"Credit Suisse",1284,Credit Suisse,126
+"Caterpillar",162911,Caterpillar Logistics Inc.,0
+"New York Life",2833617,Kentucky Blue Blood Financial Group/ a Lifetime Financial Growth Company,0
+"Humana",4257,Humana,34
+"BAE Systems USA",1748499,TPG - The Project Group,0
+"Wipro",1315,Wipro Infotech,0
+"Kelly Services",2309,Kelly Financial Resources,7
+"LinkedIn",1337,LinkedIn,188
+"Sherwin-Williams",165944,Sherwin Williams,17
+"NIKE",2029,Nike,29
+"Advantage Sales and Marketing",1784,The Boston Consulting Group,3
+"CarMax",162901,CarMax,20
+"Pearson",2138,Pearson plc,0
+"Stanford University",1792,Stanford University,338
+"Walt Disney Company",1292,The Walt Disney Company,1145
+"Medtronic",1841,Medtronic,25
+"Epic Systems Corporation",6959,InterSystems,67
+"University of Michigan",2516,University of Michigan,39
+"Chick-fil-A",7476,The Richards Group,4
+"Vanguard",3184,Vanguard,24
+"Broadcom",3072,Broadcom,106
+"Aflac",3997,Aflac,7
+"Wachovia",1235,Wells Fargo,93
+"American Airlines",2640,American Airlines,49
+"United Airlines",2380,United Airlines,6
+"Nationwide",2340,Nationwide Insurance,20
+"L-3 Communications",2810,L-3 Communications,1075
+"Applebee's",6753,Applebee's,454
+"Cintas",5045,Cintas,1171
+"Cox Communications",3330,Cox Communications,61
+"Ulta Beauty",166572,ULTA Beauty,495
+"Fiserv",7630,Open Solutions is now part of Fiserv. Please follow Fiserv at LinkedIn.com/company/Fiserv,10
+"Hollister Co.",5410,Abercrombie & Fitch,43
+"University of California Berkeley",2517,UC Berkeley,19
+"University of Phoenix",3051,Apollo Education Group,10
+"Progressive Insurance",3264,Progressive Insurance,71
+"Ann Taylor",157337,ANN INC.,89
+"American Red Cross",157239,American Red Cross,132
+"University of Washington",4608,Washington University in St. Louis,5
+"GE Healthcare",1015,GE,2023
+"Chipotle",163025,Chipotle Mexican Grill,3
+"Facebook",10667,Facebook,324
+"Travelers Companies",3088,Travelers,65
+"Menards",13739,Menards,0
+"Aon Hewitt",2041,Aon,13
+"ARAMARK",2815,Aramark,952
+"Advance Auto Parts",9185,Advance Auto Parts,3
+"AutoZone",7412,AutoZone,8
+"Avaya",1494,Avaya,103
+"Ericsson-Worldwide",6846,AEG,2
+"Express",4969,Express Scripts,209
+"Juniper Networks",2240,Juniper Networks,126
+"AIG",1760,AIG,113
+"Taco Bell",3408,Yum! Restaurants International,0
+"Electronic Data Systems",1001,Teledyne Technologies Incorporated,1
+"Trader Joe's",11823,Trader Joe's,18
+"Goodwill",3757767,Goodwill Industries of Central East Texas,0
+"Paychex",4255,Paychex,34
+"ADT Security Services",162293,ADT,34
+"CDW",3334,CDW,39
+"TJ Maxx",5122,TJ Maxx,0
+"Cerner",2812,Cerner Corporation,14
+"US Census Bureau",7811,U.S. Census Bureau,0
+"CGI Group",72172,XYZ,0
+"FedEx Office",3866,FedEx Office,17
+"Meijer",7075,Meijer,95
+"Sports Authority",5892,Sports Authority,4
+"Amgen",2068,Amgen,71
+"Family Dollar Stores",163761,Family Dollar,2
+"Deutsche Bank",1262,Deutsche Bank,23
+"Williams-Sonoma",4123,Williams-Sonoma, Inc.,72
+"TD Bank",5246686,Keller Mack Insurance Inc,0
+"Hilton Worldwide",2449,Hilton Worldwide,207
+"CenturyLink",4955,CenturyLink,61
+"Prudential",15294,Prudential Real Estate,0
+"Domino's",673027,Domino Amjet, Inc,0
+"University of Southern California",3084,University of Southern California,5
+"LexisNexis Legal & Professional",2206,LexisNexis,19
+"Rockwell Collins",3959,Rockwell Collins,50
+"Burger King",162835,Burger King Corporation,18972
+"Capgemini",1956,Sogeti,40
+"Eastman Chemical",163547,Eastman Chemical Company,19
+"Fifth Third",269755,BBVA Compass,18
+"CA Technologies",1372,CA Technologies,70
+"Vector Marketing",6646,Vector Marketing,1021
+"NBCUniversal",1828,NBCUniversal, Inc.,318
+"NCR",1467,NCR Corporation,60
+"J. Crew",6734,J.Crew,50
+"PayPal",1482,PayPal,133
+"Blockbuster",3418,Blockbuster,0
+"Wendy's",982790,Team Wendy,0
+"Petco",19671,Digitaria, a JWT Company,3
+"DIRECTV",3744,DIRECTV,24
+"Delta Air Lines",2272,Delta Air Lines,0
+"Dollar Tree",2951929,A+ Tree & Crane Services, Inc.,0
+"Alcatel-Lucent",4274,Dimension Data UK,0
+"AOL",1258,AOL,37
+"The Hartford",2467,The Hartford,10
+"UCLA",2477,UCLA,17
+"Columbia University",2624,Columbia University in the City of New York,25
+"BP",1389,BP,127
+"US Department of Veterans Affairs",271896,1E,0
+"Manpower",2835101,Manpower Professional - Las Vegas,0
+"Ameriprise",2515038,Ameriprise Auto & Home Insurance,10
+"AMC Entertainment",165103,National CineMedia (NCM),17
+"Aetna",5564,Coventry Health Care, an Aetna Company,0
+"Securitas Security Services USA",307494,Securitas Security Services USA, Inc.,9
+"Chili's",2287456,Dolores Chili Brick,0
+"Visa Inc.",269755,BBVA Compass,18
+"Sephora",3544878,Sephora Design,0
+"U.S. Cellular",4729,U.S. Cellular,51
+"DaVita",6487,DaVita,9
+"Cigna",2490,Cigna,1322
+"Fedex Express",40761,KickApps Corporation,0
+"Starwood Hotels & Resorts",3035,Starwood Hotels & Resorts Worldwide, Inc.,23
+"Nokia",2962413,Nokia Growth Partners,0
+"Chevron",2192,Chevron,56
+"FedEx Ground",1668,FedEx Ground,0
+"Pier 1 Imports",5928,Pier 1 Imports,25
+"Discover",3762,Discover Financial Services,83
+"Citrix Systems",164004,Global Knowledge Training,4
+"General Mills",2822,General Mills,56
+"URS",4284,URS Corporation,24
+"McKesson",1900,McKesson,63
+"H E B",904770,lgofbeverlyhills,0
+"Red Lobster",163347,Darden,9460
+"Bloomingdale's",162731,Bloomingdale's,37
+"National Instruments",1841,Medtronic,25
+"Frontier Communications",163906,Frontier Communications,8
+"Hyatt",220336,Hyatt Hotels Corporation,6
+"Food Lion",12727,Food Lion,2923
+"Johnson Controls",2247,Johnson Controls,613
+"Kraft Foods",4100,Starcom MediaVest Group,9
+"Harvard University",1646,Harvard University,509
+"Fastenal",10564,Fastenal,871
+"Wolters Kluwer",2487,Wolters Kluwer, CCH,3
+"Abbott Labs",1612,Abbott,36
+"Urban Outfitters",8280,Urban Outfitters,6
+"Life Time Fitness",165697,REI,0
+"Eli Lilly",1663,Eli Lilly and Company,18
+"American Income Life",12868,The Entrepreneur's Source,0
+"WellPoint",2619,WellPoint,27
+"REI",165697,REI,0
+"MIT",1503,Massachusetts Institute of Technology (MIT),182
+"Reynolds and Reynolds",3720,The Reynolds and Reynolds Company,171
+"AlliedBarton",162381,AlliedBarton Security Services,4
+"HCL Technologies",1756,HCL Technologies,47
+"BlackRock",2766517,Blackrock Lender Services,0
+"hibu",6936,hibu,413
+"Cracker Barrel",3568812,The Focus Group Management Consulting,1
+"University of Minnesota",3181,University of Minnesota,8
+"Purdue University",3846,Purdue University,321
+"Applied Materials",2018,Applied Materials,13
+"Electronic Arts",6391,Tavant Technologies,0
+"Buffalo Wild Wings",162206,22squared,0
+"Wegmans",166905,Wegmans Food Markets,1
+"Mercer",2423,Mercer,64
+"W.W. Grainger",3863,Grainger,51
+"Six Flags",7737,Six Flags,200
+"McKinsey & Company",2290848,Objective Health, a McKinsey Solution for Healthcare Providers,0
+"ITT Technical Institute",30098,Center for Professional Development @ ITT Technical Institute,0
+"Texas A&M",4556,Texas A&M University,86
+"Jimmy John's",948895,Jimmy John's,0
+"Quest Diagnostics",4727,Quest Diagnostics,33
+"Brigham Young University (BYU)",13635,BYU-Idaho,0
+"Chrysler",1616,Chrysler Group LLC,3
+"US Department of Defense",165069,Mullen,0
+"Rent-A-Center",564686,Next Contact,0
+"Cummins",3143906,Cummins Crosspoint,0
+"Aéropostale",14191,Aeropostale,5
+"University of Maryland",3638,University of Maryland,17
+"NVIDIA",3608,NVIDIA,191
+"BB&T",4672,BB&T,52
+"Papa John's",14430,Papa John's International,4
+"Burlington Coat Factory",11240,Burlington Stores, Inc.,7
+"Cardinal Health",2162,Cardinal Health,714
+"24 Hour Fitness",6497,24 Hour Fitness,10
+"General Dynamics Information Technology",1905,General Dynamics Information Technology,1712
+"First Data",2020,First Data Corporation,489
+"Level 3 Communications",1625,Level 3 Communications,7
+"Rackspace",5234,Rackspace, the #1 managed cloud company,248
+"University of Texas at Austin",3162,The University of Texas at Austin,2
+"Baker Hughes",4334,Baker Hughes,130
+"MITRE",2793318,Mitre Accounting and Tax Service,0
+"Southwest Airlines",4599,Southwest Airlines,30
+"hhgregg",43537,h.h. gregg,26
+"DSW",163512,DSW,2
+"CareerBuilder",4162,CareerBuilder.com,12
+"Saks Fifth Avenue",157315,Saks Fifth Avenue,157
+"TeleTech",5945,eLoyalty, a TeleTech Company,6
+"Thermo Fisher Scientific",3081,Thermo Fisher Scientific,262
+"BearingPoint",1207880,Diogenec Group, LLP,0
+"YP",1865398,Elevate YPO,0
+"Halliburton",2217,Halliburton,39
+"Outback Steakhouse",6043,Deutsch,2
+"Massage Envy",164868,Massage Envy Spa,3
+"Coach",5618,Coach,25
+"Fannie Mae",19722,Fannie Mae,42
+"Riverbed Technology",7796,Riverbed Technology,62
+"Winn-Dixie",166949,Winn-Dixie,0
+"GNC",9650,GNC,3
+"AECOM",15656,AECOM,1
+"University of Illinois at Urbana-Champaign",2650,University of Illinois at Urbana-Champaign,139
+"Pitney Bowes",2503,Pitney Bowes,16
+"The Children's Place",4798,Hallmark Cards,4
+"University of Pennsylvania",3165,University of Pennsylvania,4
+"Ricoh Americas Corporation",3316,Ricoh Americas Corporation,14
+"GE Capital",1023,GE Capital,774
+"Groupon",355611,Groupon,118
+"Morgan Stanley Smith Barney",1351,Morgan Stanley Wealth Management,98
+"Overstock.com",2571886,KC Overstock,0
+"Avon Products",2614,Avon,25
+"Netflix",165158,Netflix,136
+"Harris Teeter",19540,Harris Teeter,0
+"Motorola Solutions",1771432,Motorola Solutions,49
+"Arizona State University",4292,Arizona State University,27
+"Dow Chemical",5849,Dow Corning,6
+"TIAA-CREF",4037,TIAA-CREF,156
+"Georgia Tech",3558,Georgia Institute of Technology,179
+"H&M",2567179,H&M Mechanical Constructors, Inc.,0
+"CBRE",2953351,CBRE Global Investors,0
+"American Cancer Society",4013,American Cancer Society,23
+"Payless ShoeSource",165415,Payless ShoeSource,7
+"Cheesecake Factory",2729597,Vollmer's Bakery and Cheesecake Factory,0
+"Keller Williams",2224,Keller Williams Realty, Inc.,392
+"Charter Communications",166829,VML,13
+"Pacific Gas and Electric",3895,Pacific Gas and Electric Company,47
+"University of Florida",4282,University of Florida,1
+"FIS",100783,FIS Group,0
+"HSBC Bank USA",2194820,Prineta Payment Consulting,0
+"Belk",3521881,Belk Architecture,0
+"CompuCom",3635,CompuCom,23
+"Anthropologie",8281,Anthropologie,1
+"Northwestern University",3196,Northwestern University,70
+"Freescale Semiconductor",1959,Freescale Semiconductor,16
+"Jacobs Engineering",4025,Jacobs,29
+"CEB",3198,CEB,41
+"Micron Technology",3690,Micron Technology,101
+"Total Quality Logistics",15677,Total Quality Logistics,267
+"Barclays Capital",24864,Allied Testing,0
+"Washington Mutual",6378,Russell Investments,14
+"Chico's FAS",163019,Chico's FAS Inc.,586
+"CROSSMARK",3729963,CrossMark Risk Solutions,0
+"Marshalls",410048,Southfield Packaging/Marshalls Express, Inc.,0
+"3M",1864,3M,15
+"Waste Management",204770,Waste Management,17
+"Unisys",1281,Unisys,14
+"IKEA",3046152,Vivson Ikea,0
+"CSAA Insurance Group",2984,CSAA Insurance Group,60
+"NYU (New York University)",3159,New York University,51
+"Covidien",57390,Switch,4
+"Bain & Company",2114,Bain & Company,12
+"SRA International",3916,SRA International,19
+"Polo Ralph Lauren",4688,Ralph Lauren,5
+"KeyBank",3253,KeyBank Real Estate Capital,0
+"Boston Scientific",1637,Boston Scientific,39
+"Harris",272690,Harris & Harris, Ltd.,1
+"Brookdale Senior Living",1256525,Brookdale Senior Living,0
+"Penn State University",3657,Penn State University,43
+"ALDI",1388360,Aldi Real Estate,0
+"HSBC Holdings",1056439,CoBe Capital,0
+"Regal Entertainment",19251,Regal Entertainment Group,0
+"Gannett",4191,Gannett,56
+"Kimberly-Clark",1672,OgilvyOne Worldwide,0
+"Bristol-Myers Squibb",1773,Bristol-Myers Squibb,432
+"Quicken Loans",165627,Quicken Loans,4
+"Baxter",1249150,Baxter & Baxter, LLP,0
+"Clear Channel",2541,Clear Channel Outdoor,8
+"Cengage Learning",162954,Cengage Learning,298
+"Ruby Tuesday",12826,Ruby Tuesday,0
+"Regions Financial",1284,Credit Suisse,126
+"Avanade",3033,Avanade,12
+"Navistar",734935,Pure Power Technologies LLC, A Navistar Company,0
+"Teach for America",281289,Teach For Us,0
+"Olive Garden Italian Restaurants",3798634,Olive Garden,0
+"UC San Diego",3382,University of California, San Diego,112
+"John Deere",3789,John Deere,22
+"Scottrade",9385,Scottrade,22
+"Borders",5149,Borders,1
+"RGIS",14434,RGIS,10
+"Ohio State University",3171,The Ohio State University Wexner Medical Center,131
+"Sodexo USA",3237698,Dynamic Drinkware,0
+"7-Eleven",6176,7-Eleven,96
+"TJX Companies",5121,The TJX Companies, Inc.,18
+"Alorica",13152,Alorica,5
+"Hobby Lobby",164200,Hobby Lobby,109
+"Freddie Mac",3140,Freddie Mac,19
+"Dunkin' Donuts",163520,Dunkin' Brands,9
+"Protiviti",3920,Protiviti,29
+"BCBG",8989,BCBGMAXAZRIAGROUP,6
+"Avis Budget Group",2121,Avis Budget Group,43
+"CACI International",3672,CACI International Inc,45
+"Caesars Entertainment",4210,Caesars Entertainment Corporation,10
+"Agilent Technologies",1526,Agilent Technologies,0
+"R.R. Donnelley",28299,EDGAR Online, a division of R.R. Donnelley & Sons Company,0
+"IRS",2937062,IRS Remedy,0
+"MTV Networks",1884,Viacom,17
+"UC Davis",2842,UC Davis,9
+"Cargill",5073584,Cargill Marketing and Communications,0
+"Orbitz Worldwide",5169,Orbitz Worldwide,25
+"West Corporation",5335,West Corporation,202
+"University of Pittsburgh",3461,University of Pittsburgh,8
+"Monsanto Company",3422,Monsanto Company,15
+"Maxim Healthcare Services",164880,Maxim Healthcare Services,47
+"Turner Broadcasting",2047,Turner Broadcasting System,3
+"Holiday Retirement",68423,Holiday Retirement,1
+"Capital Group",1123,Bank of America,28
+"Jones Lang LaSalle",3178,JLL,140
+"Sony Electronics",1253,Sony Electronics,12
+"Autodesk",1879,Autodesk,72
+"DeVry University",4427,DeVry University,8
+"Circuit City",3421,CompUSA,0
+"SolarCity",240767,SolarCity,88
+"Neiman Marcus",2074739,6 Shore Road,0
+"Cornell University",3523,Cornell University,3
+"Southern California Edison",157357,Southern California Edison (SCE),51
+"Roche",5043307,Roche Human Resources Consulting, LLC,0
+"Philips Healthcare",2482113,Philips Healthcare,0
+"Active Network",7126,ACTIVE Network,68
+"Johns Hopkins University",3528,Johns Hopkins University,12
+"Power Home Remodeling Group",594172,Power Home Remodeling Group,21
+"LA Fitness",14278,Millennium Partners Sports Club Management,0
+"General Dynamics C4 Systems",1908,General Dynamics C4 Systems,17
+"Eaton",2599,Eaton,252
+"Sogeti",1956,Sogeti,40
+"The Fresh Market",166360,The Clorox Company,66
+"Citizens Financial Group",163062,Citizens Bank,46
+"Rutgers University",4262,Rutgers University,0
+"Fresenius Medical Care - North America",5978,Fresenius Medical Care,65
+"Fry's Electronics",1417798,LYNX INNOVATION INC,1
+"University of Chicago",6477,Loyola University Chicago,111
+"Cobalt",1655081,Cobalt Capital Partners,0
+"Novartis Pharmaceuticals",1406,Novartis,15
+"Pacific Sunwear",9213,Pacific Sunwear,31
+"UC San Francisco",2517,UC Berkeley,19
+"Kellogg Company",3922,Kellogg Company,111
+"Razorfish",2864,Razorfish,19
+"Hy-Vee",164249,Hy-Vee,0
+"Teleperformance",3730201,GMS CONNECT,0
+"Gartner",2078,Gartner,45
+"McGladrey LLP",3743,McGladrey,500
+"Red Robin",12760,Red Robin,7
+"CareFusion",381767,CareFusion,129
+"Sonic",7638,Sonic Drive-In,4
+"University of Houston",157342,University of Houston,145
+"GE Aviation",570550,GE Aviation,11
+"Container Store",64774,Port of Long Beach,0
+"Stop & Shop",3143,Stop & Shop,35
+"Nestlé USA",1171662,GModelo USA, LLC,0
+"Whirlpool",2551,Whirlpool Corporation,22
+"Big Lots",9229,Big Lots,15
+"Kforce",3076,Kforce Inc,49
+"Cleveland Clinic",5656,Cleveland Clinic,40
+"Giant Eagle",2683207,Williams, Moliterno & Scully Co., L.P.A.,0
+"Aaron's",1516933,Aaron Chang Ocean Art Galleries,0
+"Books-A-Million",1885,Nickelodeon,1
+"US Coast Guard",462659,US Coast Guard Auxiliary,0
+"Bankers Life & Casualty",5007,Bankers Life and Casualty Company,24
+"ExxonMobil",1689,ExxonMobil,2
+"Slalom Consulting",166000,Slalom Consulting,12
+"Schneider Electric",2329,Schneider Electric,32
+"Northern Trust",3831,Northern Trust Corporation,15
+"Randstad US",157324,Randstad Technologies US,0
+"Levi Strauss",165420,Pcubed,0
+"Digitas",8790,Digitas Health LifeBrands,0
+"Kindred Healthcare",7616,Kindred Healthcare,27
+"Ecolab",4713,Ecolab,44
+"SUPERVALU",2912,SUPERVALU,7
+"Acosta",8097,Acosta Sales & Marketing,192
+"Guitar Center",8359,Guitar Center,12
+"Cellular Sales",4729,U.S. Cellular,51
+"Cbeyond",162921,Cbeyond,27
+"Reachlocal",165676,ReachLocal,13
+"Public Storage",1093,Dell,1255
+"JoS. A. Bank",42610,Jos. A. Bank Clothiers,3
+"KLA-Tencor",2722,KLA-Tencor,30
+"LabCorp",923992,National Genetics Institute; a LabCorp subsidiary,0
+"MD Anderson",164901,MD Anderson Cancer Center,22
+"US Airways",3797,US Airways,4
+"FactSet",163755,FactSet,10
+"Federal Government",1614,SAIC,200
+"LSI",164778,LSI, an Avago Technologies Company,0
+"Supermedia",1364700,Inceptor,0
+"Harbor Freight Tools",28923,Harbor Freight Tools,3
+"Indiana University",3325,Indiana University,3
+"Eastman Kodak",1515,Eastman Kodak,12
+"Steak n Shake",166152,Steak n Shake,4
+"Interactive Intelligence",164405,Interactive Intelligence,48
+"O'Reilly Auto Parts",30967,O'Reilly Auto Parts,10
+"TD Ameritrade",3388,TD Ameritrade,68
+"Wayfair",19857,Wayfair,11
+"Albertsons",2911,Albertsons,0
+"US Investigations Services",7787,AlixPartners,4
+"JetBlue",164535,JetBlue Airways,4
+"Life Technologies",1035,Microsoft,2242
+"Apollo Education Group",3051,Apollo Education Group,10
+"Ashford University",20241,Ashford University,7
+"Quintiles",4057,Quintiles,32
+"The Buckle",33588,The Buckle, Inc.,0
+"Mattress Firm",164876,Mattress Firm,18
+"New York City Department of Education",2905,NYC Department of Education,0
+"Exelis",256931,Exelis C4i,0
+"MassMutual",3631,MassMutual Financial Group,6
+"Hospital Corporation of America",3626,HCA,15337
+"Education Management Corporation",1550,Kaiser Permanente,44
+"Zynga",7284,Academy of Art University,11
+"NIH",165107,National Institutes of Health,4
+"Jamba Juice",11209,Jamba Juice,0
+"Carnegie Mellon University",3147,Carnegie Mellon University,80
+"Marvell Technology",3772,Marvell Semiconductor,28
+"Party City",6516,DST Systems,9
+"C.H. Robinson Worldwide",162987,C.H. Robinson,77
+"Duke University",3356,Duke University,6
+"Cablevision Systems",4294,Cablevision,20
+"Dominion Enterprises",2261895,ZiiOS, LLC,0
+"Acxiom",2739,Acxiom,11
+"Unilever",625058,Unilever PeopleLink,0
+"Lifetouch",8266,Lifetouch,419
+"Finish Line",10914,Finish Line,9
+"LensCrafters",14088,Lenscrafters,0
+"Cornerstone OnDemand",19664,Cornerstone OnDemand,44
+"MarketSource",6743,MarketSource,779
+"Iron Mountain Inc",3780,Iron Mountain,31
+"Wells Fargo Advisors",1235,Wells Fargo,94
+"E*TRADE Financial",11516,Aramex,0
+"Cricket Communications",5780,Cricket Wireless,4
+"AXA Advisors",5120,AXA Advisors,11
+"Washington University in St. Louis",4608,Washington University in St. Louis,5
+"Adecco USA",1930,Adecco Staffing, USA,14
+"Brocade Communications",5853,Westcon,7
+"Hallmark",4798,Hallmark Cards,4
+"Ingersoll-Rand",3175,Ingersoll Rand,31
+"Qwest",1638,Qwest,0
+"Fred Meyer",4914,Kroger,3
+"Xilinx",2770015,Bottom Line Technologies, Inc,0
+"MathWorks",1851745,MathWorks Consulting,0
+"CoStar Group",7027,CoStar Group,51
+"Boston Consulting Group",1784,The Boston Consulting Group,3
+"Salvation Army",166406,The Salvation Army,417
+"Arby's",11874,Arby's Restaurant Group, Inc.,20
+"Wawa",12241,Wawa, Inc.,14
+"DuPont",2155,DuPont,26
+"KFC",3408,Yum! Restaurants International,0
+"Bob Evans",27803,Bob Evans,1010
+"T.G.I. Friday's",11520,T.G.I. Fridays,5
+"Jo-Ann Stores",164543,Jo-Ann Stores, LLC.,1008
+"Epsilon",3776,Epsilon,308
+"Flextronics",2279,Flextronics,193
+"Boston University",3556,Boston University,99
+"International Game Technology",5147,IGT,50
+"Maxim Integrated",3766972,Barksteel Systems,0
+"Crate & Barrel",9849,Crate and Barrel,5
+"kumon north american", null, null, null"Mary Kay",2835,Mary Kay Inc.,12
+"Newell Rubbermaid",157237,Newell Rubbermaid,12
+"Panda Express",3065793,WBT Industries,0
+"Yale University",4071,Yale University Careers,7
+"Sodexo",3402,Sodexo,52
+"American Automobile Association (AAA)",3243196,Seminole Hard Rock Hotel & Casino Tampa,0
+"Texas Roadhouse",20139,Texas Roadhouse,0
+"Houghton Mifflin Harcourt",3980,Houghton Mifflin Harcourt,31
+"GLOBALFOUNDRIES",241309,GLOBALFOUNDRIES,14
+"T. Rowe Price",157329,T. Rowe Price,41
+"Coldwater Creek",7521,Coldwater Creek,0
+"Volt Information",2594,Volt Information Sciences,0
+"University of Arizona",4734,The University of Arizona,81
+"Sapient",2145,Sapient,17
+"Nortel Networks",25672,Continuant,1
+"TE Connectivity",2059,TE Connectivity,16
+"Talbots",8294,Talbots,5
+"American Family Insurance",4647,American Family Insurance,99
+"Blue Shield Of California",2619,WellPoint,27
+"St. Jude Medical",4345,St. Jude Medical,20
+"Foot Locker",163864,Foot Locker,5
+"BMC Software",1597,BMC Software,41
+"The Campus Special",7257,University of New Hampshire,7
+"BD",3102,BD,169
+"Emory University",3889,Emory University,14
+"Vocus",12052,Vocus,4
+"BJ's Wholesale Club",8403,BJ's Wholesale Club,8
+"North Carolina State University",4813,NC State University,1
+"CH2M HILL",3739,CH2M HILL,243
+"Cost Plus",4556,Texas A&M University,86
+"David's Bridal",10883,David's Bridal,2
+"Georgia-Pacific Corporation",166521,TSYS,77
+"US Foods",166714,US Foods,1194
+"Apria Healthcare",162486,Apria Healthcare,6
+"M&T Bank",164798,M&T Bank,8
+"Amdocs",1539,Amdocs,3
+"GlaxoSmithKline",429603,G2 Worldwide,13
+"L'Oréal USA",2591827,Maximus Spa Salon,0
+"InterContinental Hotels",3549,IHG - InterContinental Hotels Group,3
+"Gymboree",2504345,Gymboree Play & Music of Ocean & Howell, NJ,0
+"Beckman Coulter",162677,Beckman Coulter,15
+"Geek Squad",8934,Geek Squad,0
+"Allscripts",7094,Allscripts,48
+"Discovery Communications",2928,Discovery Communications,14
+"College Works Painting",163145,College Works Painting,0

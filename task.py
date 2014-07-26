@@ -2,25 +2,34 @@
 # -*- coding: utf-8 -*-
 import scraper
 from scraper import *
-import os 
+import os, time
 
 
 def main():
     # glassdoor()
     # indeedActiveJobs()
 
-    sp = LinkedinScraper()
-    soup = sp.openSoup("https://www.linkedin.com/company/ibm/careers")
-
-    base = "http:/www.linkedin.com"
-    url = soup.find("a", class_="see-all")["href"]
-
-    soup = sp.openSoup("http:/www.linkedin.com/job/c-ibm-jobs?trk=biz_careers_jobslite_pub")
-    print base + url
-
-    rep = urllib2.Request("http:/www.linkedin.com/job/c-ibm-jobs?trk=biz_careers_jobslite_pub")
-    f = urllib2.urlopen(req)
-
+    sp = scraper.LinkedinScraper()
+    sp.login("student23@163.com","jz4kFZRBi4")
+    
+    fh = open("sample","w")
+    count = 0
+    for (filename, company, review) in fileGenerator("./name"):
+        review = int(review)
+        if review >= 200: fh.write("%s\n" % company)
+        
+        #     count += 1
+        #     if count > 1015:
+        #         print company
+        #         guess_id, guess_name, jobCount = sp.activeJobs(company)
+        #         record = '"%s",%s,%s,%s\n' % (company, guess_id, unicode(guess_name).encode("utf-8"), jobCount)
+        #         print record.strip()
+        #         fh.write(record)
+        #         time.sleep(5)
+    
+    fh.close()
+        
+        
 
    
 def indeedActiveJobs():
@@ -50,10 +59,7 @@ def fileGenerator(path):
 
 
 
-def glassdoor():
-    sp = scraper.GlassdoorScraper()
-    sp.setPageGenerator(11684,14243)
-    sp.siteWalker(0)
+
 
 
 main()
